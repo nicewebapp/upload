@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:description" content="Upload image" />
+    <title>Upload</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="field">
+      <div class="file is-warning">
+        <label class="file-label">
+          <input class="file-input" type="file" name="input" />
+          <div class="file-cta">
+            <span class="file-label">
+              <span class="text">
+                Select Image...
+              </span>
+              <button class="button is-loading is-warning"></button>
+            </span>
+          </div>
+        </label>
+      </div>
+    </div>
+    <div class="msg"></div>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-161926743-1"
+    ></script>
+    <script src="app.js"></script>
+    <script src="ga.js"></script>
+  </body>
+</html>

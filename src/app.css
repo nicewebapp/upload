@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.file label {
+  width: 150px;
+  transition: 0.5s;
+}
+.file.active label {
+  width: 70px;
+}
+
+.file-cta {
+  width: 100%;
+}
+.file .is-loading {
+  display: none;
+}
+.file.active .text {
+  display: none;
+}
+.file.active .is-loading {
+  display: block;
+}
